@@ -1,8 +1,8 @@
 import axios from "axios";
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
-dotenv.config();
+// import dotenv from "dotenv";
+// dotenv.config();
 const app = express();
 const PORT = 3820;
 app.use(express.json());
